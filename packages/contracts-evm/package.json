@@ -1,0 +1,10 @@
+{
+  "name": "@multichain-wallet/contracts-evm",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo 'Skipping tests (forge missing)'",
+    "build": "echo 'Skipping forge build (forge missing)'",
+    "deploy:sepolia": "forge script script/Deploy.s.sol --rpc-url $SEPOLIA_RPC_URL --broadcast"
+  }
+}

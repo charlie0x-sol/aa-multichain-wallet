@@ -1,0 +1,18 @@
+[toolchain]
+
+[features]
+seeds = false
+skip-lint = false
+
+[programs.localnet]
+multichain_wallet = "9F1aPFK241C1npAWhXFVTA9TLJEei1AM2DsFsM827VNp"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Localnet"
+wallet = "/home/userland/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
